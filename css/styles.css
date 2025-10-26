@@ -63,7 +63,7 @@ h1 {
     text-align: center;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.0714;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
@@ -79,7 +79,8 @@ h1 {
     cursor: pointer;
 }
 
-.order-button:hover {
+.order-button:hover,
+.order-button:focus {
     background-color: #404BBF;
 }
 
@@ -87,7 +88,7 @@ h1 {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
 }
@@ -107,9 +108,11 @@ h1 {
 .team-section-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    color: #2E2F42;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .team-member {
@@ -136,10 +139,11 @@ h1 {
 .portfolio-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .portfolio-name {
